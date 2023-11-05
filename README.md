@@ -158,10 +158,12 @@ Users are likely to use the app whenever they cook, making it a habitual tool in
 
 ## Wireframes
 
-[Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+![IMG_0328](https://github.com/biraj-dahal/LetsCook/assets/102353731/753c7fda-2e5a-41ee-9344-900c28e4e8ba)
+
 
 ### [BONUS] Digital Wireframes & Mockups
+
+![IMG_0328](https://github.com/biraj-dahal/LetsCook/assets/102353731/753c7fda-2e5a-41ee-9344-900c28e4e8ba)
 
 ### [BONUS] Interactive Prototype
 
