@@ -1,6 +1,5 @@
 # LetsCook App
 
-# LetsCook
 LetsCook is an IOS App which helps you craft various dishes through the unique recipes, and AI assistance.
 ===
 
