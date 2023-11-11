@@ -169,6 +169,10 @@ Users are likely to use the app whenever they cook, making it a habitual tool in
 (Progress)
 ![Simulator Screen Recording - iPhone 14 Pro - 2023-11-10 at 20 25 12](https://github.com/biraj-dahal/LetsCook/assets/102353731/bdf22ed1-6856-4d1b-812d-e166f0a19024)
 
+### Reflection on the Progress
+
+I have created User UI for Navigation Controller through Login/SignUp which has a full working Login/SignUp start page, which redirects to Login page when clicked on Login, and redirects to SignUp page when clicked on Signup page. After putting in details, which I will authenticate using firebase later, it redirects into home screen. Starting here, we have a tab view controller, which has 5 different options to change the tab to: Home/Categories/Create/Favourite/User Profile.
+
 
 ## Schema 
 
