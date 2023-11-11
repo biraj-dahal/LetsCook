@@ -166,6 +166,8 @@ Users are likely to use the app whenever they cook, making it a habitual tool in
 ![IMG_0328](https://github.com/biraj-dahal/LetsCook/assets/102353731/753c7fda-2e5a-41ee-9344-900c28e4e8ba)
 
 ### [BONUS] Interactive Prototype
+(Progress)
+
 
 ## Schema 
 
