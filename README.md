@@ -176,7 +176,13 @@ I have created User UI for Navigation Controller through Login/SignUp which has 
 
 ## Schema 
 
-[This section will be completed in Unit 9]
+Updated Version: 
+1) Used Firebase to Authenticate Users
+2) Used FireStore to store Each Users information.
+3) Created TableView, and Cell View for components.
+
+
+![Simulator Screen Recording - iPhone 14 Pro - 2023-11-19 at 23 12 24](https://github.com/biraj-dahal/LetsCook/assets/102353731/57632483-3e8e-4be6-a875-4d22dc0d3a02)
 
 ### Models
 
