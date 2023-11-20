@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B3677072B0840D2005D8571 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3677062B0840D2005D8571 /* HomeScreenViewController.swift */; };
+		8B3677092B0840EF005D8571 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3677082B0840EF005D8571 /* CategoriesViewController.swift */; };
+		8B36770B2B084104005D8571 /* CreateRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B36770A2B084104005D8571 /* CreateRecipeViewController.swift */; };
+		8B36770D2B084117005D8571 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B36770C2B084117005D8571 /* FavoriteViewController.swift */; };
+		8B36770F2B08412B005D8571 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B36770E2B08412B005D8571 /* UserProfileViewController.swift */; };
+		8B3677112B094980005D8571 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3677102B094980005D8571 /* loginViewController.swift */; };
+		8B3677132B094994005D8571 /* signInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3677122B094994005D8571 /* signInViewController.swift */; };
+		8B3677152B094E5D005D8571 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B3677142B094E5C005D8571 /* GoogleService-Info.plist */; };
+		8B3677182B094EE6005D8571 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 8B3677172B094EE6005D8571 /* FirebaseAuth */; };
+		8B36771A2B09A82D005D8571 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3677192B09A82D005D8571 /* User.swift */; };
+		8B3677232B09CAE8005D8571 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 8B3677222B09CAE8005D8571 /* FirebaseFirestore */; };
+		8B3677252B09CAE8005D8571 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8B3677242B09CAE8005D8571 /* FirebaseFirestoreSwift */; };
+		8B3677272B09CAE8005D8571 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 8B3677262B09CAE8005D8571 /* FirebaseStorage */; };
+		8B3677292B0B08FD005D8571 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3677282B0B08FD005D8571 /* NetworkManager.swift */; };
 		8BA9F9382AF7F25D004D2D03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA9F9372AF7F25D004D2D03 /* AppDelegate.swift */; };
 		8BA9F93A2AF7F25D004D2D03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA9F9392AF7F25D004D2D03 /* SceneDelegate.swift */; };
 		8BA9F93C2AF7F25D004D2D03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA9F93B2AF7F25D004D2D03 /* ViewController.swift */; };
@@ -37,6 +51,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B3677062B0840D2005D8571 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		8B3677082B0840EF005D8571 /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		8B36770A2B084104005D8571 /* CreateRecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRecipeViewController.swift; sourceTree = "<group>"; };
+		8B36770C2B084117005D8571 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		8B36770E2B08412B005D8571 /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		8B3677102B094980005D8571 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		8B3677122B094994005D8571 /* signInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signInViewController.swift; sourceTree = "<group>"; };
+		8B3677142B094E5C005D8571 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8B3677192B09A82D005D8571 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = User.swift; path = ../../../Documents/User.swift; sourceTree = "<group>"; };
+		8B3677282B0B08FD005D8571 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		8BA9F9342AF7F25D004D2D03 /* LetsCook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetsCook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BA9F9372AF7F25D004D2D03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BA9F9392AF7F25D004D2D03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +82,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B3677182B094EE6005D8571 /* FirebaseAuth in Frameworks */,
+				8B3677272B09CAE8005D8571 /* FirebaseStorage in Frameworks */,
+				8B3677232B09CAE8005D8571 /* FirebaseFirestore in Frameworks */,
+				8B3677252B09CAE8005D8571 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +106,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B36771B2B09CAAC005D8571 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8BA9F92B2AF7F25D004D2D03 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +120,7 @@
 				8BA9F9502AF7F25E004D2D03 /* LetsCookTests */,
 				8BA9F95A2AF7F25E004D2D03 /* LetsCookUITests */,
 				8BA9F9352AF7F25D004D2D03 /* Products */,
+				8B36771B2B09CAAC005D8571 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,12 +138,22 @@
 			isa = PBXGroup;
 			children = (
 				8BA9F9372AF7F25D004D2D03 /* AppDelegate.swift */,
+				8B3677192B09A82D005D8571 /* User.swift */,
 				8BA9F9392AF7F25D004D2D03 /* SceneDelegate.swift */,
 				8BA9F93B2AF7F25D004D2D03 /* ViewController.swift */,
 				8BA9F93D2AF7F25D004D2D03 /* Main.storyboard */,
+				8B3677102B094980005D8571 /* loginViewController.swift */,
+				8B3677122B094994005D8571 /* signInViewController.swift */,
+				8B3677062B0840D2005D8571 /* HomeScreenViewController.swift */,
+				8B3677082B0840EF005D8571 /* CategoriesViewController.swift */,
+				8B3677282B0B08FD005D8571 /* NetworkManager.swift */,
+				8B36770A2B084104005D8571 /* CreateRecipeViewController.swift */,
+				8B36770C2B084117005D8571 /* FavoriteViewController.swift */,
+				8B36770E2B08412B005D8571 /* UserProfileViewController.swift */,
 				8BA9F9432AF7F25E004D2D03 /* Assets.xcassets */,
 				8BA9F9452AF7F25E004D2D03 /* LaunchScreen.storyboard */,
 				8BA9F9482AF7F25E004D2D03 /* Info.plist */,
+				8B3677142B094E5C005D8571 /* GoogleService-Info.plist */,
 				8BA9F9402AF7F25D004D2D03 /* LetsCook.xcdatamodeld */,
 			);
 			path = LetsCook;
@@ -146,6 +192,12 @@
 			dependencies = (
 			);
 			name = LetsCook;
+			packageProductDependencies = (
+				8B3677172B094EE6005D8571 /* FirebaseAuth */,
+				8B3677222B09CAE8005D8571 /* FirebaseFirestore */,
+				8B3677242B09CAE8005D8571 /* FirebaseFirestoreSwift */,
+				8B3677262B09CAE8005D8571 /* FirebaseStorage */,
+			);
 			productName = LetsCook;
 			productReference = 8BA9F9342AF7F25D004D2D03 /* LetsCook.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +270,9 @@
 				Base,
 			);
 			mainGroup = 8BA9F92B2AF7F25D004D2D03;
+			packageReferences = (
+				8B3677162B094EE6005D8571 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 8BA9F9352AF7F25D004D2D03 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -235,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BA9F9472AF7F25E004D2D03 /* LaunchScreen.storyboard in Resources */,
+				8B3677152B094E5D005D8571 /* GoogleService-Info.plist in Resources */,
 				8BA9F9442AF7F25E004D2D03 /* Assets.xcassets in Resources */,
 				8BA9F93F2AF7F25D004D2D03 /* Main.storyboard in Resources */,
 			);
@@ -263,8 +319,17 @@
 			files = (
 				8BA9F93C2AF7F25D004D2D03 /* ViewController.swift in Sources */,
 				8BA9F9422AF7F25D004D2D03 /* LetsCook.xcdatamodeld in Sources */,
+				8B3677092B0840EF005D8571 /* CategoriesViewController.swift in Sources */,
+				8B3677292B0B08FD005D8571 /* NetworkManager.swift in Sources */,
+				8B3677132B094994005D8571 /* signInViewController.swift in Sources */,
 				8BA9F9382AF7F25D004D2D03 /* AppDelegate.swift in Sources */,
+				8B3677112B094980005D8571 /* loginViewController.swift in Sources */,
 				8BA9F93A2AF7F25D004D2D03 /* SceneDelegate.swift in Sources */,
+				8B36770B2B084104005D8571 /* CreateRecipeViewController.swift in Sources */,
+				8B36771A2B09A82D005D8571 /* User.swift in Sources */,
+				8B36770D2B084117005D8571 /* FavoriteViewController.swift in Sources */,
+				8B36770F2B08412B005D8571 /* UserProfileViewController.swift in Sources */,
+				8B3677072B0840D2005D8571 /* HomeScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -606,6 +671,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8B3677162B094EE6005D8571 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8B3677172B094EE6005D8571 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B3677162B094EE6005D8571 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		8B3677222B09CAE8005D8571 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B3677162B094EE6005D8571 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		8B3677242B09CAE8005D8571 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B3677162B094EE6005D8571 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		8B3677262B09CAE8005D8571 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B3677162B094EE6005D8571 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		8BA9F9402AF7F25D004D2D03 /* LetsCook.xcdatamodeld */ = {
