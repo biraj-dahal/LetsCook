@@ -50,15 +50,15 @@ Users are likely to use the app whenever they cook, making it a habitual tool in
 
 ### Required Must-have Stories:
 
-- As a user, I want to log in to access my account.
-- As a user, I want to sign up for a new account.
-- As a user, I want to access the Home Screen for recipe search and personalized recommendations.
-- As a user, I want to browse recipe categories.
-- As a user, I want to create, add, or save new recipes.
-- As a user, I want to access my favorite recipes.
-- As a user, I want to access my user profile.
-- As a user, I want to view detailed cooking procedures for recipes.
-- As a user, I want to ask the AI chatbot for recipe assistance.
+- [x] As a user, I want to log in to access my account.
+- [x] As a user, I want to sign up for a new account.
+- [x] As a user, I want to access the Home Screen for recipe search and personalized recommendations.
+- [x] As a user, I want to browse recipe categories.
+- [x] As a user, I want to create, add, or save new recipes.
+- [x] As a user, I want to access my favorite recipes.
+- [x] As a user, I want to access my user profile.
+- [ ] As a user, I want to view detailed cooking procedures for recipes.
+- [ ] As a user, I want to ask the AI chatbot for recipe assistance.
 
 ### Optional Nice-to-have Stories:
 
@@ -70,8 +70,8 @@ Users are likely to use the app whenever they cook, making it a habitual tool in
 
 ## Screen Archetypes
 
-### Login/Signup Screen:
-
+### Login/Signup Screen: 
+- [x]
 - Allows users to log in or sign up for an account.
 - Associated Required Stories: Log in, Sign up.
 
@@ -125,7 +125,7 @@ Users are likely to use the app whenever they cook, making it a habitual tool in
 
 ### Tab Navigation (Tab to Screen):
 
-- Login/Signup
+- [x] Login/Signup
 - Home
 - Categories
 - Create Recipe
@@ -135,11 +135,11 @@ Users are likely to use the app whenever they cook, making it a habitual tool in
 ### Flow Navigation (Screen to Screen):
 
 #### From the Login/Signup Screen:
-
+- [x]
 - After logging in or signing up, direct the user to the Home Screen.
 
 #### From the Home Screen:
-
+- [x]
 - To the Categories Screen when a user wants to browse categories.
 - To the Create Recipe Screen when a user wants to add a new recipe.
 - To the Favorite Recipes Screen to access saved recipes.
@@ -167,6 +167,11 @@ Users are likely to use the app whenever they cook, making it a habitual tool in
 
 ### [BONUS] Interactive Prototype
 (Progress)
+![Simulator Screen Recording - iPhone 14 Pro - 2023-11-10 at 20 25 12](https://github.com/biraj-dahal/LetsCook/assets/102353731/bdf22ed1-6856-4d1b-812d-e166f0a19024)
+
+### Reflection on the Progress
+
+I have created User UI for Navigation Controller through Login/SignUp which has a full working Login/SignUp start page, which redirects to Login page when clicked on Login, and redirects to SignUp page when clicked on Signup page. After putting in details, which I will authenticate using firebase later, it redirects into home screen. Starting here, we have a tab view controller, which has 5 different options to change the tab to: Home/Categories/Create/Favourite/User Profile.
 
 
 ## Schema 
