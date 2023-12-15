@@ -165,8 +165,6 @@ Users are likely to use the app whenever they cook, making it a habitual tool in
 
 
 ### [BONUS] Interactive Prototype
-(Progress)
-![Simulator Screen Recording - iPhone 14 Pro - 2023-11-10 at 20 25 12](https://github.com/biraj-dahal/LetsCook/assets/102353731/bdf22ed1-6856-4d1b-812d-e166f0a19024)
 
 ### Reflection on the Progress
 
